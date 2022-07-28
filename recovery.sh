@@ -24,7 +24,6 @@ list_files | while read FILE DUMMY; do
 	rm "/system/app/$FILE"
 done
 
-pm uninstall cn.autohack.hondahack
 pm clear com.mitsubishielectric.ada.app.dalauncher
 
 rm -Rf /data/dalvik-cache/*
